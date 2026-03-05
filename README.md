@@ -59,14 +59,12 @@ Site 1
 | VLAN10   | 2001:DB8:0:AA01::/64 | 10.0.0.0/27  |
 | VLAN20   | 2001:DB8:0:AA02::/64 | 10.0.0.32/29 |
 | P2P Link | 2001:DB8:0:AAF1::/64 | 10.0.0.40/30 |
-|          |                      |              |
 
 Site 2
 
 | Network | IPv6 Prefix          | IPv4 Prefix |
 | ------- | -------------------- | ----------- |
 | LAN 1   | 2001:DB8:0:BB01::/64 | 10.0.2.0/24 |
-|         |                      |             |
 
 Site 3
 
@@ -75,6 +73,5 @@ Site 3
 | VLAN10  | 2001:DB8:0:CC01::/64 | 10.0.4.0/24 |
 | VLAN20  | 2001:DB8:0:CC02::/64 | 10.0.5.0/29 |
 | VLAN99  | 2001:DB8:0:CCF0::/64 | 10.0.5.8/29 |
-|         |                      |             |
 
 Link-local addresses are manually configured to maintain deterministic routing.
