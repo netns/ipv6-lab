@@ -49,6 +49,7 @@ spanning-tree mode pvst
 interface Loopback0
  ip address 10.255.255.3 255.255.255.255
  ipv6 address FD00::3/128
+ ipv6 ospf 1 area 0
 !
 interface Port-channel1
  switchport trunk allowed vlan 10,20,99

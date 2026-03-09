@@ -43,12 +43,28 @@ ipv6 dhcp pool INSIDE
 !
 !
 !
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+no ip domain-lookup
+!
+!
 spanning-tree mode pvst
 !
 !
 !
 !
 !
+interface Loopback0
+ ip address 10.255.255.4 255.255.255.255
+ ipv6 address FD00::4/128
 !
 interface GigabitEthernet1/0/1
  switchport access vlan 20

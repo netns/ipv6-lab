@@ -54,6 +54,7 @@ spanning-tree mode pvst
 interface Loopback0
  ip address 10.255.255.2 255.255.255.255
  ipv6 address FD00::2/128
+ ipv6 ospf 1 area 0
 !
 interface GigabitEthernet0/0
  ip address 172.16.0.2 255.255.255.252
